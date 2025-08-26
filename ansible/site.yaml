@@ -50,10 +50,10 @@
         path: /opt/app
         state: directory
 
-    - name: Copy docker-compose.yml
+    - name: Copy docker-compose.yaml
       copy:
-        src: docker/docker-compose.yml
-        dest: /opt/app/docker-compose.yml
+        src: docker/docker-compose.yaml
+        dest: /opt/app/docker-compose.yaml
 
     - name: Run containers
       community.docker.docker_compose_v2:
