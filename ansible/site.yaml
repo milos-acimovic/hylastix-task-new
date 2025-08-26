@@ -56,6 +56,6 @@
         dest: /opt/app/docker-compose.yml
 
     - name: Run containers
-      community.docker.docker_compose:
+      community.docker.docker_compose_v2:
         project_src: /opt/app
         state: present
