@@ -54,6 +54,15 @@
       copy:
         src: /Users/milosacimovic/Desktop/Test-task/hylastix-task-new/docker/docker-compose.yaml
         dest: /opt/app/docker-compose.yaml
+    - name: Copy nginx configuration
+      copy:
+        src: /Users/milosacimovic/Desktop/Test-task/hylastix-task-new/docker/nginx.conf
+        dest: /opt/app/nginx.conf
+
+    - name: Copy static page
+      copy:
+        src: /Users/milosacimovic/Desktop/Test-task/hylastix-task-new/docker/page/testpage.html
+        dest: /opt/app/page/
 
     - name: Run containers
       community.docker.docker_compose_v2:
