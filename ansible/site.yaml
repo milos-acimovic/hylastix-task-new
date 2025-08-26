@@ -52,7 +52,7 @@
 
     - name: Copy docker-compose.yaml
       copy:
-        src: docker-compose.yaml
+        src: /Users/milosacimovic/Desktop/Test-task/hylastix-task-new/docker/docker-compose.yaml
         dest: /opt/app/docker-compose.yaml
 
     - name: Run containers
