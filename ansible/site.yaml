@@ -3,6 +3,20 @@
   become: true
 
   tasks:
+
+    - name: Remove apt lock files if exist
+      file:
+        path: "{{ item }}"
+        state: absent
+      loop:
+        - /var/lib/dpkg/lock-frontend
+        - /var/lib/dpkg/lock
+        - /var/cache/apt/archives/lock
+
+    - name: Ensure dpkg is not locked
+      command: dpkg --configure -a
+      ignore_errors: yes
+
     - name: Update apt packages
       apt:
         update_cache: yes
