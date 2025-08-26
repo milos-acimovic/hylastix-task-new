@@ -21,7 +21,7 @@ services:
     command: start-dev
     environment:
       DB: postgres
-      DB_URL: jdbc:postgresql://postgres:5432/keycloak
+      DB_URL: jdbc:postgresql://postgres:5432/keycloakdb
       DB_USERNAME: keycloakusr
       DB_PASSWORD: secret
       KEYCLOAK_ADMIN: admin
