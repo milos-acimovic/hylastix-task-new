@@ -52,7 +52,7 @@
 
     - name: Copy docker-compose.yaml
       copy:
-        src: docker/docker-compose.yaml
+        src: docker-compose.yaml
         dest: /opt/app/docker-compose.yaml
 
     - name: Run containers
