@@ -16,7 +16,7 @@ services:
     image: quay.io/keycloak/keycloak:24.0.4
     container_name: keycloak
     restart: always
-    command: start-dev
+    command: start-dev --https-port=8443
     environment:
       DB: postgres
       DB_URL: jdbc:postgresql://postgres:5432/keycloakdb
