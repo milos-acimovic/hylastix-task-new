@@ -62,14 +62,14 @@
 
     - name: Create folder for static page
       file:
-        path: /opt/app/page
+        path: /opt/app/docker/page
         state: directory
         mode: '0755'
 
     - name: Copy static page
       copy:
         src: /Users/milosacimovic/Desktop/Test-task/hylastix-task-new/docker/page/testpage.html
-        dest: /opt/app/page/testpage.html
+        dest: /opt/app/docker/page/testpage.html
         mode: '0644'
 
     - name: Run containers
