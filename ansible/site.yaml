@@ -52,12 +52,12 @@
 
     - name: Copy docker-compose.yaml
       copy:
-        src: /docker/docker-compose.yaml
+        src: docker/docker-compose.yaml
         dest: /opt/app/docker-compose.yaml
 
     - name: Copy nginx configuration
       copy:
-        src: /docker/nginx.conf
+        src: docker/nginx.conf
         dest: /opt/app/nginx.conf
 
     - name: Create folder for static page
@@ -68,7 +68,7 @@
 
     - name: Copy static page
       copy:
-        src: /docker/page/testpage.html
+        src: docker/page/testpage.html
         dest: /opt/app/docker/page/testpage.html
         mode: '0644'
 
