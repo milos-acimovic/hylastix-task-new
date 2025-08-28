@@ -30,6 +30,11 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.AZURE_SSH_KEY }}
 
+      - name: Add VM to known hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H 172.173.169.36 >> ~/.ssh/known_hosts
+
       - name: Run Ansible playbook
         run: |
           ansible-playbook -i ansible/inventory.ini ansible/site.yaml
