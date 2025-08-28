@@ -60,10 +60,17 @@
         src: /Users/milosacimovic/Desktop/Test-task/hylastix-task-new/docker/nginx.conf
         dest: /opt/app/nginx.conf
 
+    - name: Create folder for static page
+      file:
+        path: /opt/app/page
+        state: directory
+        mode: '0755'
+
     - name: Copy static page
       copy:
         src: /Users/milosacimovic/Desktop/Test-task/hylastix-task-new/docker/page/testpage.html
-        dest: /opt/app/page/
+        dest: /opt/app/page/testpage.html
+        mode: '0644'
 
     - name: Run containers
       community.docker.docker_compose_v2:
