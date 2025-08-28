@@ -30,6 +30,11 @@ services:
       - postgres
     networks:
       - keycloak-net
+    healthcheck:
+      test: ["CMD", "curl", "-k", "-f", "https://localhost:8443/"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
 
   nginx:
     image: nginx:latest
