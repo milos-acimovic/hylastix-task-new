@@ -31,10 +31,10 @@ services:
     networks:
       - keycloak-net
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:8080/ || exit 1"]
-      interval: 15s
-      timeout: 20s
-      retries: 12
+      test: [ "CMD-SHELL", "curl -f http://localhost:8080/ || exit 1" ]
+      interval: 10s
+      timeout: 10s
+      retries: 20
       start_period: 30s
 
   nginx:
@@ -44,12 +44,13 @@ services:
     volumes:
       - /opt/app/docker/page:/usr/share/nginx/html:ro
       - /opt/app/nginx.conf:/etc/nginx/nginx.conf:ro
-    ports:
-      - "80:80"
     depends_on:
       - keycloak
     networks:
       - keycloak-net
+    command: /bin/sh -c "while ! curl -s http://keycloak:8080/; do sleep 5; done; nginx -g 'daemon off;'"
+    ports:
+      - "80:80"
 
 volumes:
   postgres_data:
