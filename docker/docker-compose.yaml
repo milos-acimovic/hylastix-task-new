@@ -38,8 +38,8 @@ services:
     container_name: nginx
     restart: always
     volumes:
+      - ./docker/page:/usr/share/nginx/html:ro
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./html:/usr/share/nginx/html:ro
     ports:
       - "80:80"
     depends_on:
