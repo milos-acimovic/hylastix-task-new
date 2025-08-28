@@ -52,3 +52,4 @@ volumes:
 
 networks:
   keycloak-net:
+    name: keycloak-net
