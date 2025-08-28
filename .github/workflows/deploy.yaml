@@ -32,4 +32,4 @@ jobs:
 
       - name: Run Ansible playbook
         run: |
-          ansible-playbook -i inventory.ini site.yaml
+          ansible-playbook -i ansible/inventory.ini ansible/site.yaml
