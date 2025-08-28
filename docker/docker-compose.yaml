@@ -16,7 +16,7 @@ services:
     image: quay.io/keycloak/keycloak:24.0.4
     container_name: keycloak
     restart: always
-    command: start-dev --https-port=8443
+    command: start-dev
     environment:
       DB: postgres
       DB_URL: jdbc:postgresql://postgres:5432/keycloakdb
@@ -25,13 +25,13 @@ services:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin123
     ports:
-      - "8443:8443"
+      - "8080:8080"
     depends_on:
       - postgres
     networks:
       - keycloak-net
     healthcheck:
-      test: ["CMD", "curl", "-k", "-f", "https://localhost:8443/"]
+      test: ["CMD", "curl", "-k", "-f", "https://localhost:8080/"]
       interval: 10s
       timeout: 5s
       retries: 12
