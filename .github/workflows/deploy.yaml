@@ -89,3 +89,4 @@ jobs:
         run: ansible-playbook -i ansible/inventory.ini ansible/site.yaml
         env:
           ANSIBLE_HOST_KEY_CHECKING: "False"
+          TF_VAR_ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
