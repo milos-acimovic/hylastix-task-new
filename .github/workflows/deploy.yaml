@@ -26,15 +26,15 @@ jobs:
           ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
           ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
 
-      - name: Terraform Force Unlock
-        if: failure() || success()
-        run: terraform force-unlock -force c8e8ca9a-1f74-bfc2-1a74-4b57f23ce459
-        working-directory: terraform
-        env:
-          ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
-          ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
-          ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
-          ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+#      - name: Terraform Force Unlock
+#        if: failure() || success()
+#        run: terraform force-unlock -force c8e8ca9a-1f74-bfc2-1a74-4b57f23ce459
+#        working-directory: terraform
+#        env:
+#          ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
+#          ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+#          ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+#          ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
 
       - name: Terraform Plan
         run: terraform plan -out=tfplan
