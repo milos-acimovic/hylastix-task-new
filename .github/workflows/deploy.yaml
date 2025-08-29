@@ -28,7 +28,7 @@ jobs:
 
       - name: Terraform Force Unlock
         if: failure() || success()
-        run: terraform force-unlock -force LOCK_ID
+        run: terraform force-unlock -force c8e8ca9a-1f74-bfc2-1a74-4b57f23ce459
         working-directory: terraform
         env:
           ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
