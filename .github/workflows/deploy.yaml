@@ -89,4 +89,3 @@ jobs:
         run: ansible-playbook -i ansible/inventory.ini ansible/site.yaml
         env:
           ANSIBLE_HOST_KEY_CHECKING: "False"
-          ANSIBLE_SSH_KEY: ${{ secrets.AZURE_SSH_KEY }}
