@@ -73,7 +73,7 @@ jobs:
 
       - name: Update Ansible inventory with Terraform IP
         run: |
-          sed -i "s/ansible_host=.*/ansible_host=$VM_IP/" ansible/inventory.ini
+          sed -i "s|ansible_host=.*|ansible_host=$VM_IP|" ansible/inventory.ini
 
       - name: Add VM to known hosts
         run: |
