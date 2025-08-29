@@ -45,10 +45,12 @@ jobs:
           ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
           ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
 
-  ansible:
-    runs-on: ubuntu-latest
+      - name: Get Terraform output
+        id: tf
+        run: |
+          echo "VM_IP=$(terraform output -raw vm_public_ip)" >> $GITHUB_ENV
+        working-directory: terraform
 
-    steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -63,16 +65,16 @@ jobs:
           pip install ansible
           ansible-galaxy collection install community.docker
 
-      - name: Add SSH key
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.AZURE_SSH_KEY }}
+      - name: Update Ansible inventory with Terraform IP
+        run: |
+          sed -i "s/ansible_host=.*/ansible_host=$VM_IP/" ansible/inventory.ini
 
       - name: Add VM to known hosts
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan -H 172.173.169.36 >> ~/.ssh/known_hosts
+          ssh-keyscan -H $VM_IP >> ~/.ssh/known_hosts
 
       - name: Run Ansible playbook
-        run: |
-          ansible-playbook -i ansible/inventory.ini ansible/site.yaml
+        run: ansible-playbook -i ansible/inventory.ini ansible/site.yaml
+        env:
+          ANSIBLE_HOST_KEY_CHECKING: "False"
