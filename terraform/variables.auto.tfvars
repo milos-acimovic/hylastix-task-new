@@ -4,4 +4,4 @@ location = "East US"
 
 username = "azureuser"
 
-ssh_public_key = "/Users/milosacimovic/.ssh/id_rsa_azure.pub"
+#ssh_public_key = "/Users/milosacimovic/.ssh/id_rsa_azure.pub"
