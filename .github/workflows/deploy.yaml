@@ -48,7 +48,8 @@ jobs:
       - name: Get Terraform output
         id: tf
         run: |
-          echo "VM_IP=$(terraform output -raw vm_public_ip)" >> $GITHUB_ENV
+          VM_IP=$(terraform output -raw vm_public_ip)
+          echo "VM_IP=$VM_IP" >> $GITHUB_ENV
         working-directory: terraform
 
       - name: Checkout repository
