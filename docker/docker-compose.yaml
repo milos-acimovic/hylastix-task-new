@@ -18,22 +18,22 @@ services:
     restart: unless-stopped
     command:
       - start
-      - --optimized
+      - --http-port=8080
+      - --hostname-strict=false
+      - --db=postgres
+      - --db-url=jdbc:postgresql://postgres:5432/keycloakdb
+      - --db-username=keycloakusr
+      - --db-password=secret
     environment:
-      KC_DB: postgres
-      KC_DB_USERNAME: keycloakusr
-      KC_DB_PASSWORD: secret
-      KC_DB_URL_HOST: postgres
-      KC_DB_URL_PORT: 5432
-      KC_DB_URL_DATABASE: keycloakdb
       KC_HOSTNAME: 172.173.169.36
-      KC_HTTP_ENABLED: "true"
-    ports:
-      - "8080:8080"
+      KC_BOOTSTRAP_ADMIN_USERNAME: admin
+      KC_BOOTSTRAP_ADMIN_PASSWORD: admin123
     depends_on:
       - postgres
     networks:
       - keycloak-net
+    ports:
+      - "8080:8080"
 
 #  oauth2-proxy:
 #    image: quay.io/oauth2-proxy/oauth2-proxy:v7.6.0
