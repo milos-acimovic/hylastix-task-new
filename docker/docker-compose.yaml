@@ -18,6 +18,8 @@ services:
     restart: unless-stopped
     command:
       - start-dev
+      - --http-port=8080
+      - --hostname-strict=false
       - --db=postgres
       - --db-url=jdbc:postgresql://postgres:5432/keycloakdb
       - --db-username=keycloakusr
