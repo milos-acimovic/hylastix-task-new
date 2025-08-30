@@ -21,13 +21,13 @@ services:
       - --optimized
     environment:
       KC_DB: postgres
-      KC_DB_URL: jdbc:postgresql://postgres:5432/keycloakdb
       KC_DB_USERNAME: keycloakusr
       KC_DB_PASSWORD: secret
-      KC_BOOTSTRAP_ADMIN_USERNAME: admin
-      KC_BOOTSTRAP_ADMIN_PASSWORD: admin123
-      KC_PROXY: edge
+      KC_DB_URL_HOST: postgres
+      KC_DB_URL_PORT: 5432
+      KC_DB_URL_DATABASE: keycloakdb
       KC_HOSTNAME: 172.173.169.36
+      KC_HTTP_ENABLED: "true"
     ports:
       - "8080:8080"
     depends_on:
@@ -35,26 +35,26 @@ services:
     networks:
       - keycloak-net
 
-  oauth2-proxy:
-    image: quay.io/oauth2-proxy/oauth2-proxy:v7.6.0
-    container_name: oauth2-proxy
-    restart: unless-stopped
-    environment:
-      OAUTH2_PROXY_PROVIDER: keycloak-oidc
-      OAUTH2_PROXY_CLIENT_ID: static-app
-      OAUTH2_PROXY_CLIENT_SECRET: your-client-secret
-      OAUTH2_PROXY_COOKIE_SECRET: "a-32-byte-random-string-base64"
-      OAUTH2_PROXY_COOKIE_SECURE: "false"
-      OAUTH2_PROXY_EMAIL_DOMAINS: "*"
-      OAUTH2_PROXY_OIDC_ISSUER_URL: http://keycloak:8080/keycloak/realms/myrealm
-      OAUTH2_PROXY_REDIRECT_URL: http://localhost/oauth2/callback
-      OAUTH2_PROXY_UPSTREAMS: "file:///dev/null"
-    ports:
-      - "4180:4180"
-    depends_on:
-      - keycloak
-    networks:
-      - keycloak-net
+#  oauth2-proxy:
+#    image: quay.io/oauth2-proxy/oauth2-proxy:v7.6.0
+#    container_name: oauth2-proxy
+#    restart: unless-stopped
+#    environment:
+#      OAUTH2_PROXY_PROVIDER: keycloak-oidc
+#      OAUTH2_PROXY_CLIENT_ID: static-app
+#      OAUTH2_PROXY_CLIENT_SECRET: your-client-secret
+#      OAUTH2_PROXY_COOKIE_SECRET: "a-32-byte-random-string-base64"
+#      OAUTH2_PROXY_COOKIE_SECURE: "false"
+#      OAUTH2_PROXY_EMAIL_DOMAINS: "*"
+#      OAUTH2_PROXY_OIDC_ISSUER_URL: http://keycloak:8080/keycloak/realms/myrealm
+#      OAUTH2_PROXY_REDIRECT_URL: http://localhost/oauth2/callback
+#      OAUTH2_PROXY_UPSTREAMS: "file:///dev/null"
+#    ports:
+#      - "4180:4180"
+#    depends_on:
+#      - keycloak
+#    networks:
+#      - keycloak-net
 
   nginx:
     image: nginx:alpine
