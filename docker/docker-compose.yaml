@@ -19,7 +19,6 @@ services:
     command:
       - start
       - --optimized
-      - --http-relative-path=/keycloak
     environment:
       KC_DB: postgres
       KC_DB_URL: jdbc:postgresql://postgres:5432/keycloakdb
