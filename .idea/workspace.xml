@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Add env">
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="edit apply">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/inventory.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inventory.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +330,47 @@
       <option name="project" value="LOCAL" />
       <updated>1756560695975</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="edit">
+      <option name="closed" value="true" />
+      <created>1756561661398</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1756561661398</updated>
+    </task>
+    <task id="LOCAL-00038" summary="edit">
+      <option name="closed" value="true" />
+      <created>1756561869036</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1756561869036</updated>
+    </task>
+    <task id="LOCAL-00039" summary="edit apply">
+      <option name="closed" value="true" />
+      <created>1756562227231</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1756562227231</updated>
+    </task>
+    <task id="LOCAL-00040" summary="edit apply">
+      <option name="closed" value="true" />
+      <created>1756562359032</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1756562359032</updated>
+    </task>
+    <task id="LOCAL-00041" summary="edit apply">
+      <option name="closed" value="true" />
+      <created>1756562486524</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1756562486524</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -349,6 +388,8 @@
     <MESSAGE value="Edit" />
     <MESSAGE value="Remove force unlock" />
     <MESSAGE value="Add env" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add env" />
+    <MESSAGE value="edit" />
+    <MESSAGE value="edit apply" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit apply" />
   </component>
 </project>
