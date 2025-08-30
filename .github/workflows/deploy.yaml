@@ -45,9 +45,7 @@ jobs:
           ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
         run: |
           echo "Running Terraform Apply..."
-          APPLY_OUTPUT=$(terraform apply -auto-approve tfplan)
-          echo "$APPLY_OUTPUT"
-          VM_IP=$(echo "$APPLY_OUTPUT" | grep 'vm_public_ip' | awk -F'"' '{print $2}')
+          VM_IP=$(terraform apply -auto-approve tfplan | tee /dev/tty | grep 'vm_public_ip' | head -n1 | awk -F'"' '{print $2}' | tr -d '\r\n')
           echo "VM_IP=$VM_IP" >> $GITHUB_ENV
           echo "Terraform VM IP: [$VM_IP]"
 
