@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Remove force unlock">
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Add env">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/inventory.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inventory.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756559823288</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add env">
+      <option name="closed" value="true" />
+      <created>1756560695975</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1756560695975</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -339,6 +348,7 @@
     <MESSAGE value="Final" />
     <MESSAGE value="Edit" />
     <MESSAGE value="Remove force unlock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove force unlock" />
+    <MESSAGE value="Add env" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add env" />
   </component>
 </project>
