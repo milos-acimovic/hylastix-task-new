@@ -19,6 +19,8 @@ services:
     command:
       - start-dev
       - --http-relative-path=/keycloak
+      - --hostname-strict=false
+      - --http-enabled=true
     environment:
       DB: postgres
       DB_URL: jdbc:postgresql://postgres:5432/keycloakdb
@@ -26,6 +28,8 @@ services:
       DB_PASSWORD: secret
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin123
+      KEYCLOAK_HTTP_ENABLED: "true"
+      KEYCLOAK_HOSTNAME_STRICT: "false"
     ports:
       - "8080:8080"
     depends_on:

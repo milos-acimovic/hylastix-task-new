@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="" />
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Final">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +43,285 @@
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dummy commit">
+      <option name="closed" value="true" />
+      <created>1756458279991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756458279991</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Edit secret">
+      <option name="closed" value="true" />
+      <created>1756458566993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756458566993</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Edit secret">
+      <option name="closed" value="true" />
+      <created>1756458876092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756458876092</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Edit secret - fix">
+      <option name="closed" value="true" />
+      <created>1756458966653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756458966653</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Edit tf state">
+      <option name="closed" value="true" />
+      <created>1756459270656</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756459270656</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1756459659062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756459659062</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Edit action">
+      <option name="closed" value="true" />
+      <created>1756460011736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756460011736</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756460178977</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1756460178977</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756460348348</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1756460348348</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756460509854</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756460509854</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756460668686</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1756460668686</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756460811606</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756460811606</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756461012208</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1756461012209</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756461557038</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1756461557038</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756461674136</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1756461674136</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756461885988</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1756461885988</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756462066257</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1756462066257</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Edit action - fix">
+      <option name="closed" value="true" />
+      <created>1756462196577</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1756462196577</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add destroy action">
+      <option name="closed" value="true" />
+      <created>1756463181078</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1756463181078</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add destroy action">
+      <option name="closed" value="true" />
+      <created>1756463200595</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1756463200595</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Dummy commit">
+      <option name="closed" value="true" />
+      <created>1756463366563</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1756463366563</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Dummy commit - Fix">
+      <option name="closed" value="true" />
+      <created>1756463944113</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1756463944114</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1756464174889</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1756464174889</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1756465009279</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1756465009279</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1756465334961</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1756465334961</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1756466006774</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1756466006774</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1756466230103</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1756466230103</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1756466341130</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1756466341130</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1756466444681</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1756466444681</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Dummy">
+      <option name="closed" value="true" />
+      <created>1756466844371</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1756466844371</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Dummy">
+      <option name="closed" value="true" />
+      <created>1756466982106</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1756466982106</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Dummy">
+      <option name="closed" value="true" />
+      <created>1756467145448</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1756467145448</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Final">
+      <option name="closed" value="true" />
+      <created>1756467272033</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1756467272033</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Edit secret" />
+    <MESSAGE value="Edit secret - fix" />
+    <MESSAGE value="Edit tf state" />
+    <MESSAGE value="Edit action" />
+    <MESSAGE value="Edit action - fix" />
+    <MESSAGE value="Add destroy action" />
+    <MESSAGE value="Dummy commit" />
+    <MESSAGE value="Dummy commit - Fix" />
+    <MESSAGE value="Fix" />
+    <MESSAGE value="Dummy" />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
 </project>
