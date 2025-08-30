@@ -26,7 +26,7 @@ services:
       - --db-username=keycloakusr
       - --db-password=secret
     environment:
-      KC_HOSTNAME: 172.173.169.36
+      KC_HOSTNAME: localhost
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin123
     depends_on:
