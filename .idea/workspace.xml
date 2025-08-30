@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Final" />
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Remove force unlock">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,7 +306,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756467272033</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Edit">
+      <option name="closed" value="true" />
+      <created>1756559670653</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1756559670653</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Remove force unlock">
+      <option name="closed" value="true" />
+      <created>1756559823288</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1756559823288</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -319,6 +337,8 @@
     <MESSAGE value="Fix" />
     <MESSAGE value="Dummy" />
     <MESSAGE value="Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+    <MESSAGE value="Edit" />
+    <MESSAGE value="Remove force unlock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove force unlock" />
   </component>
 </project>
