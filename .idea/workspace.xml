@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="edit configuration of nginx" />
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="edit configuration of nginx and docker" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -384,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756563573945</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="edit configuration of nginx and docker">
+      <option name="closed" value="true" />
+      <created>1756591385424</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1756591385424</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -405,6 +413,7 @@
     <MESSAGE value="edit" />
     <MESSAGE value="edit apply" />
     <MESSAGE value="edit configuration of nginx" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit configuration of nginx" />
+    <MESSAGE value="edit configuration of nginx and docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit configuration of nginx and docker" />
   </component>
 </project>

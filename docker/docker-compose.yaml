@@ -24,6 +24,8 @@ services:
       - --db-url=jdbc:postgresql://postgres:5432/keycloakdb
       - --db-username=keycloakusr
       - --db-password=secret
+      - --https-certificate-file=/etc/x509/https/tls.crt
+      - --https-certificate-key-file=/etc/x509/https/tls.key
     environment:
       KC_HOSTNAME: 172.173.169.36
       KC_BOOTSTRAP_ADMIN_USERNAME: admin
