@@ -27,7 +27,7 @@ services:
       DB_USERNAME: keycloakusr
       DB_PASSWORD: secret
       KEYCLOAK_ADMIN: admin
-      KEYCLOAK_ADMIN_PASSWORD: admin123
+      KEYCLOAK_ADMIN_PASSWORD: admin123!
       KEYCLOAK_HTTP_ENABLED: "true"
       KEYCLOAK_HOSTNAME_STRICT: "false"
     ports:
