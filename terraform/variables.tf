@@ -13,3 +13,8 @@ variable "username" {
 variable "ssh_public_key" {
   type = string
 }
+
+variable "subscription_id" {}
+variable "client_id" {}
+variable "client_secret" {}
+variable "tenant_id" {}
