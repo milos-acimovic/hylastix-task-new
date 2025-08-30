@@ -28,6 +28,7 @@ services:
       KEYCLOAK_ADMIN_PASSWORD: admin123
       KEYCLOAK_HOSTNAME: 172.173.169.36
       KEYCLOAK_PROXY: edge
+      KEYCLOAK_HTTP_RELATIVE_PATH: /keycloak
     ports:
       - "8080:8080"
     depends_on:
