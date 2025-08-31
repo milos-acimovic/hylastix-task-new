@@ -21,7 +21,6 @@ services:
       - --http-port=8080
       - --hostname-strict=false
       - --http-enabled=true
-      - --https-required=none
       - --db=postgres
       - --db-url=jdbc:postgresql://postgres:5432/keycloakdb
       - --db-username=keycloakusr
@@ -29,6 +28,10 @@ services:
     environment:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin123
+      KC_HTTP_ENABLED: "true"
+      KC_PROXY: edge
+      KC_HOSTNAME_STRICT: "false"
+      KC_HTTPS_REQUIRED: "none"
     depends_on:
       - postgres
     networks:

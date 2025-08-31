@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Edit keycloak config" />
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Edit keycloak config in docker compose">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,14 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Edit secret - fix">
-      <option name="closed" value="true" />
-      <created>1756458966653</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1756458966653</updated>
     </task>
     <task id="LOCAL-00005" summary="Edit tf state">
       <option name="closed" value="true" />
@@ -432,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756673139003</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Edit keycloak config in docker compose">
+      <option name="closed" value="true" />
+      <created>1756673618879</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1756673618879</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -455,6 +458,7 @@
     <MESSAGE value="edit configuration of nginx" />
     <MESSAGE value="edit configuration of nginx and docker" />
     <MESSAGE value="Edit keycloak config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit keycloak config" />
+    <MESSAGE value="Edit keycloak config in docker compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit keycloak config in docker compose" />
   </component>
 </project>
