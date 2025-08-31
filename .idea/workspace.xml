@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Edit keycloak config in docker compose">
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Dummy">
       <change beforePath="$PROJECT_DIR$/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,14 +41,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Fix">
-      <option name="closed" value="true" />
-      <created>1756459659062</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1756459659062</updated>
     </task>
     <task id="LOCAL-00007" summary="Edit action">
       <option name="closed" value="true" />
@@ -434,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756673990710</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Dummy">
+      <option name="closed" value="true" />
+      <created>1756674321674</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1756674321674</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -447,7 +447,6 @@
     <MESSAGE value="Dummy commit" />
     <MESSAGE value="Dummy commit - Fix" />
     <MESSAGE value="Fix" />
-    <MESSAGE value="Dummy" />
     <MESSAGE value="Final" />
     <MESSAGE value="Edit" />
     <MESSAGE value="Remove force unlock" />
@@ -458,6 +457,7 @@
     <MESSAGE value="edit configuration of nginx and docker" />
     <MESSAGE value="Edit keycloak config" />
     <MESSAGE value="Edit keycloak config in docker compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit keycloak config in docker compose" />
+    <MESSAGE value="Dummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dummy" />
   </component>
 </project>
