@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Dummy">
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Dummy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,14 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Edit action">
-      <option name="closed" value="true" />
-      <created>1756460011736</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1756460011736</updated>
     </task>
     <task id="LOCAL-00008" summary="Edit action - fix">
       <option name="closed" value="true" />
@@ -434,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756674321674</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Dummy">
+      <option name="closed" value="true" />
+      <created>1756674680622</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1756674680622</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
