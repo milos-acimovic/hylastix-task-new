@@ -12,29 +12,28 @@ services:
     networks:
       - keycloak-net
 
-#  keycloak:
-#    image: quay.io/keycloak/keycloak:24.0.4
-#    container_name: keycloak
-#    restart: unless-stopped
-#    command:
-#      - start-dev
-#      - --http-port=8080
-#      - --hostname-strict=false
-#      - --http-enabled=true
-#      - --db=postgres
-#      - --db-url=jdbc:postgresql://postgres:5432/keycloakdb
-#      - --db-username=keycloakusr
-#      - --db-password=secret
-#    environment:
-#      KC_HOSTNAME: localhost
-#      KEYCLOAK_ADMIN: admin
-#      KEYCLOAK_ADMIN_PASSWORD: admin123
-#    depends_on:
-#      - postgres
-#    networks:
-#      - keycloak-net
-#    ports:
-#      - "8080:8080"
+  keycloak:
+    image: quay.io/keycloak/keycloak:24.0.4
+    container_name: keycloak
+    restart: unless-stopped
+    command:
+      - start-dev
+      - --http-port=8080
+      - --hostname-strict=false
+      - --http-enabled=true
+      - --db=postgres
+      - --db-url=jdbc:postgresql://postgres:5432/keycloakdb
+      - --db-username=keycloakusr
+      - --db-password=secret
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin123
+    depends_on:
+      - postgres
+    networks:
+      - keycloak-net
+    ports:
+      - "8080:8080"
 
 #  oauth2-proxy:
 #    image: quay.io/oauth2-proxy/oauth2-proxy:v7.6.0

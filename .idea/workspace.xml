@@ -40,14 +40,6 @@
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
     </task>
-    <task id="LOCAL-00002" summary="Edit secret">
-      <option name="closed" value="true" />
-      <created>1756458566993</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1756458566993</updated>
-    </task>
     <task id="LOCAL-00003" summary="Edit secret">
       <option name="closed" value="true" />
       <created>1756458876092</created>
@@ -432,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756593864510</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Edit keycloak config">
+      <option name="closed" value="true" />
+      <created>1756594397589</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1756594397589</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
