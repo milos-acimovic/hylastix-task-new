@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Remove nginx">
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Add configuration for domain">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Edit action - fix">
-      <option name="closed" value="true" />
-      <created>1756460509854</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1756460509854</updated>
     </task>
     <task id="LOCAL-00011" summary="Edit action - fix">
       <option name="closed" value="true" />
@@ -436,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756729341796</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Add configuration for domain">
+      <option name="closed" value="true" />
+      <created>1756734437047</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1756734437047</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -461,6 +460,7 @@
     <MESSAGE value="Dummy" />
     <MESSAGE value="Fix" />
     <MESSAGE value="Remove nginx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove nginx" />
+    <MESSAGE value="Add configuration for domain" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add configuration for domain" />
   </component>
 </project>
