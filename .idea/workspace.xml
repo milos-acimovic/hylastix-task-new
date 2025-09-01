@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Fix">
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Remove nginx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Edit action - fix">
-      <option name="closed" value="true" />
-      <created>1756460348348</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1756460348348</updated>
     </task>
     <task id="LOCAL-00010" summary="Edit action - fix">
       <option name="closed" value="true" />
@@ -434,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756675303107</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Remove nginx">
+      <option name="closed" value="true" />
+      <created>1756729341796</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1756729341796</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -458,6 +460,7 @@
     <MESSAGE value="Edit keycloak config in docker compose" />
     <MESSAGE value="Dummy" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="Remove nginx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove nginx" />
   </component>
 </project>
