@@ -45,7 +45,7 @@ services:
       OAUTH2_PROXY_PROVIDER: keycloak-oidc
       OAUTH2_PROXY_CLIENT_ID: static
       OAUTH2_PROXY_CLIENT_SECRET: "0KCYhokp1jFKYGH9es7NQNdRX4KExBNB"
-      OAUTH2_PROXY_COOKIE_SECRET: "TkDtkcB6InHnEMuOej8YOCAA+PiezEXZ1Al2v/zMBE0="
+      OAUTH2_PROXY_COOKIE_SECRET: "JmSCz3kxHOtlH9AYEe/1AkIOqHJaRZzeI6l41CiU0VQ="
       OAUTH2_PROXY_EMAIL_DOMAINS: "*"
       OAUTH2_PROXY_OIDC_ISSUER_URL: https://hylastixproject.ddns.net/realms/master
       OAUTH2_PROXY_REDIRECT_URL: https://hylastixproject.ddns.net/oauth2/callback
