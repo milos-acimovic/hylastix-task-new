@@ -79,15 +79,17 @@
         mode: '0755'
 
     - name: Generate self-signed TLS certificate
-      openssl_certificate:
-        path: /opt/app/cert/fullchain.pem
-        privatekey_path: /opt/app/cert/privkey.pem
-        common_name: hylastixproject.ddns.net
-        subject_alt_name:
-          - DNS:hylastixproject.ddns.net
-        provider: selfsigned
-        state: present
-        days: 365
+      become: true
+      shell: |
+        openssl req -x509 -nodes -days 365 \
+        -newkey rsa:2048 \
+        -keyout /opt/app/cert/privkey.pem \
+        -out /opt/app/cert/fullchain.pem \
+        -subj "/CN=hylastixproject.ddns.net" \
+        -addext "subjectAltName = DNS:hylastixproject.ddns.net"
+      args:
+        creates: /opt/app/cert/fullchain.pem
+
 
     - name: Set correct permissions for TLS certs
       file:
