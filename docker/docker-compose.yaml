@@ -51,6 +51,7 @@ services:
       OAUTH2_PROXY_REDIRECT_URL: https://hylastixproject.ddns.net/oauth2/callback
       OAUTH2_PROXY_UPSTREAMS: "http://nginx-internal:8080"
       OAUTH2_PROXY_SIGN_OUT_REDIRECT: https://hylastixproject.ddns.net/
+      OAUTH2_PROXY_SKIP_PROVIDER_VERIFICATION: "true"
     networks:
       - keycloak-net
     depends_on:
