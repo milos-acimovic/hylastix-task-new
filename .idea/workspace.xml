@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Revert">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx.conf" afterDir="false" />
-    </list>
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Edit config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,14 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Fix">
-      <option name="closed" value="true" />
-      <created>1756465334961</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1756465334961</updated>
     </task>
     <task id="LOCAL-00026" summary="Fix">
       <option name="closed" value="true" />
@@ -435,11 +424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1756844980599</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Edit config">
+      <option name="closed" value="true" />
+      <created>1756845716837</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1756845716837</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Edit action - fix" />
     <MESSAGE value="Add destroy action" />
     <MESSAGE value="Dummy commit" />
     <MESSAGE value="Dummy commit - Fix" />
@@ -464,6 +460,7 @@
     <MESSAGE value="Add secret" />
     <MESSAGE value="Edit playbook" />
     <MESSAGE value="Revert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert" />
+    <MESSAGE value="Edit config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit config" />
   </component>
 </project>

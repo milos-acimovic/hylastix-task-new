@@ -97,7 +97,7 @@
         recurse: yes
         owner: root
         group: root
-        mode: '0644'
+        mode: '0755'
 
     - name: Run Docker Compose stack
       community.docker.docker_compose_v2:
