@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Add secret">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/site.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/site.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Edit playbook" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,22 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Dummy commit">
-      <option name="closed" value="true" />
-      <created>1756463366563</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1756463366563</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Dummy commit - Fix">
-      <option name="closed" value="true" />
-      <created>1756463944113</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1756463944114</updated>
     </task>
     <task id="LOCAL-00023" summary="Fix">
       <option name="closed" value="true" />
@@ -435,11 +416,26 @@
       <option name="project" value="LOCAL" />
       <updated>1756842592110</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Edit playbook">
+      <option name="closed" value="true" />
+      <created>1756843649880</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1756843649880</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Edit playbook">
+      <option name="closed" value="true" />
+      <created>1756843833391</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1756843833391</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Edit tf state" />
     <MESSAGE value="Edit action" />
     <MESSAGE value="Edit action - fix" />
     <MESSAGE value="Add destroy action" />
@@ -464,6 +460,7 @@
     <MESSAGE value="Edit config to test" />
     <MESSAGE value="Edit secret" />
     <MESSAGE value="Add secret" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add secret" />
+    <MESSAGE value="Edit playbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit playbook" />
   </component>
 </project>

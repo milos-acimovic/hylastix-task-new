@@ -103,5 +103,4 @@
       community.docker.docker_compose_v2:
         project_src: /opt/app
         state: present
-        recreate: true
-        restarted: true
+        recreate: auto
