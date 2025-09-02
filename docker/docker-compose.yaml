@@ -31,31 +31,34 @@ services:
       KC_HOSTNAME: "hylastixproject.ddns.net"
       KC_HOSTNAME_STRICT: "false"
       KC_HOSTNAME_STRICT_HTTPS: "false"
-      KC_HTTPS_REQUIRED: "external"
+      KC_HTTPS_REQUIRED: "none"
     depends_on:
       - postgres
     networks:
       - keycloak-net
+    ports:
+      - "8080:8080"
 
-  oauth2-proxy:
-    image: quay.io/oauth2-proxy/oauth2-proxy:v7.6.0
-    container_name: oauth2-proxy
-    restart: unless-stopped
-    environment:
-      OAUTH2_PROXY_PROVIDER: keycloak-oidc
-      OAUTH2_PROXY_CLIENT_ID: site
-      OAUTH2_PROXY_CLIENT_SECRET: "0KCYhokp1jFKYGH9es7NQNdRX4KExBNB"
-      OAUTH2_PROXY_COOKIE_SECRET: "4ZY2CRRQKG46PICA45FZBOPET6MNTA7W"
-      OAUTH2_PROXY_EMAIL_DOMAINS: "*"
-      OAUTH2_PROXY_OIDC_ISSUER_URL: https://hylastixproject.ddns.net/realms/master
-      OAUTH2_PROXY_REDIRECT_URL: https://hylastixproject.ddns.net/oauth2/callback
-      OAUTH2_PROXY_UPSTREAMS: "http://nginx-internal:8080"
-      OAUTH2_PROXY_SIGN_OUT_REDIRECT: https://hylastixproject.ddns.net/
-      OAUTH2_PROXY_SKIP_PROVIDER_VERIFICATION: "true"
-    networks:
-      - keycloak-net
-    depends_on:
-      - keycloak
+#  oauth2-proxy:
+#    image: quay.io/oauth2-proxy/oauth2-proxy:v7.6.0
+#    container_name: oauth2-proxy
+#    restart: unless-stopped
+#    environment:
+#      OAUTH2_PROXY_PROVIDER: keycloak-oidc
+#      OAUTH2_PROXY_CLIENT_ID: static-app
+#      OAUTH2_PROXY_CLIENT_SECRET: your-client-secret
+#      OAUTH2_PROXY_COOKIE_SECRET: "a-32-byte-random-string-base64"
+#      OAUTH2_PROXY_COOKIE_SECURE: "false"
+#      OAUTH2_PROXY_EMAIL_DOMAINS: "*"
+#      OAUTH2_PROXY_OIDC_ISSUER_URL: http://keycloak:8080/keycloak/realms/myrealm
+#      OAUTH2_PROXY_REDIRECT_URL: http://localhost/oauth2/callback
+#      OAUTH2_PROXY_UPSTREAMS: "file:///dev/null"
+#    ports:
+#      - "4180:4180"
+#    depends_on:
+#      - keycloak
+#    networks:
+#      - keycloak-net
 
   nginx:
     image: nginx:alpine
@@ -70,17 +73,6 @@ services:
     ports:
       - "80:80"
       - "443:443"
-
-  nginx-internal:
-    image: nginx:alpine
-    container_name: nginx-internal
-    restart: unless-stopped
-    volumes:
-      - /opt/app/docker/page:/usr/share/nginx/html:ro
-    expose:
-      - "8080"
-    networks:
-      - keycloak-net
 
 volumes:
   postgres_data:
