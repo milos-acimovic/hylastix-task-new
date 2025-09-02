@@ -31,7 +31,7 @@ services:
       KC_HOSTNAME: "hylastixproject.ddns.net"
       KC_HOSTNAME_STRICT: "false"
       KC_HOSTNAME_STRICT_HTTPS: "false"
-      KC_HTTPS_REQUIRED: "none"
+      KC_HTTPS_REQUIRED: "external"
     depends_on:
       - postgres
     networks:
