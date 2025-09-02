@@ -72,8 +72,34 @@
         dest: /opt/app/docker/page/testpage.html
         mode: '0644'
 
-    - name: Run containers
+    - name: Create folder for certs
+      file:
+        path: /opt/app/cert
+        state: directory
+        mode: '0755'
+
+    - name: Generate self-signed TLS certificate
+      openssl_certificate:
+        path: /opt/app/cert/fullchain.pem
+        privatekey_path: /opt/app/cert/privkey.pem
+        common_name: hylastixproject.ddns.net
+        subject_alt_name:
+          - DNS:hylastixproject.ddns.net
+        provider: selfsigned
+        state: present
+        days: 365
+
+    - name: Set correct permissions for TLS certs
+      file:
+        path: /opt/app/cert
+        recurse: yes
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Run Docker Compose stack
       community.docker.docker_compose_v2:
         project_src: /opt/app
         state: present
-        recreate: auto
+        recreate: true
+        restarted: true
