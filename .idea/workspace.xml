@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="edit docs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/page/testpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/docker/page/testpage.html" afterDir="false" />
-    </list>
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="edit config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,14 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Remove force unlock">
-      <option name="closed" value="true" />
-      <created>1756559823288</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1756559823288</updated>
     </task>
     <task id="LOCAL-00036" summary="Add env">
       <option name="closed" value="true" />
@@ -435,11 +424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1756900366276</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="edit config">
+      <option name="closed" value="true" />
+      <created>1756901483930</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1756901483930</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Final" />
     <MESSAGE value="Edit" />
     <MESSAGE value="Remove force unlock" />
     <MESSAGE value="Add env" />
@@ -464,6 +460,7 @@
     <MESSAGE value="Edit config" />
     <MESSAGE value="Add keycloak in docs" />
     <MESSAGE value="edit docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit docs" />
+    <MESSAGE value="edit config" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit config" />
   </component>
 </project>
