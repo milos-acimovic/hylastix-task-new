@@ -70,19 +70,8 @@ resource "azurerm_network_security_group" "security_group" {
   }
 
   security_rule {
-    name                       = "Keycloak"
-    priority                   = 1003
-    direction                  = "Inbound"
-    access                     = "Allow"
-    protocol                   = "Tcp"
-    source_port_range          = "*"
-    destination_port_range     = "8080"
-    source_address_prefix      = "*"
-    destination_address_prefix = "*"
-  }
-  security_rule {
     name                       = "HTTPS"
-    priority                   = 1004
+    priority                   = 1003
     direction                  = "Inbound"
     access                     = "Allow"
     protocol                   = "Tcp"

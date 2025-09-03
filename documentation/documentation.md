@@ -40,7 +40,7 @@ The main goal is to create a Virtual Machine (VM) in Azure with a minimal contai
             +----------+------------+
             |                       |
     +-----------+  +----------+  +------------+
-    | PostgreSQL|  | Keycloak |  | Web Server |
+    | PostgreSQL|  | Keycloak |  |   Nginx    |
     | Container |  | Container|  | Container  |
     +-----------+  +----------+  +------------+
                        ^
@@ -52,7 +52,6 @@ The main goal is to create a Virtual Machine (VM) in Azure with a minimal contai
 1. External Access
     * Users access the system through the public internet.
     * Only ports 22 (SSH), 80 (HTTP), 443(HTTPS).
-    * SSH (22) is used for administrative access, HTTP (80) serves the static web page via Nginx.
 
 2. Public IP and Network Interface
     * The VM is assigned a static public IP, enabling external access.
@@ -65,7 +64,7 @@ The main goal is to create a Virtual Machine (VM) in Azure with a minimal contai
 
 4. Containers inside the VM
     * PostgreSQL Container: Stores data securely.
-    * Nginx Container (Web Server): Serves a static web page.
+    * Nginx Container: Acts as a reverse proxy forwarding secure traffic to Keycloak (http://keycloak:8080).
     * Keycloak Container: Authentication server, integrated with PostgreSQL
 
 Access:
