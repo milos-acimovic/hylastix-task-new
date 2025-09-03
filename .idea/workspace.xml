@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Edit config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/page/testpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/docker/page/testpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/documentation.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Dummy">
-      <option name="closed" value="true" />
-      <created>1756467145448</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1756467145448</updated>
     </task>
     <task id="LOCAL-00033" summary="Final">
       <option name="closed" value="true" />
@@ -437,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756889389141</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Edit config">
+      <option name="closed" value="true" />
+      <created>1756898872021</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1756898872021</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

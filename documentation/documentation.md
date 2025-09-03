@@ -37,12 +37,12 @@ The main goal is to create a Virtual Machine (VM) in Azure with a minimal contai
               |   Ubuntu 20.04 LTS |
               +--------------------+
                        |
-            +----------+----------+
-            |                     |
-      +-----------+         +------------+
-      | PostgreSQL|         | Web Server |
-      | Container |         | Container  |
-      +-----------+         +------------+
+            +----------+------------+
+            |                       |
+    +-----------+  +----------+  +------------+
+    | PostgreSQL|  | Keycloak |  | Web Server |
+    | Container |  | Container|  | Container  |
+    +-----------+  +----------+  +------------+
                        ^
                        |
                  Internal Subnet
@@ -51,7 +51,7 @@ The main goal is to create a Virtual Machine (VM) in Azure with a minimal contai
 
 1. External Access
     * Users access the system through the public internet.
-    * Only ports 22 (SSH), 80 (HTTP).
+    * Only ports 22 (SSH), 80 (HTTP), 443(HTTPS).
     * SSH (22) is used for administrative access, HTTP (80) serves the static web page via Nginx.
 
 2. Public IP and Network Interface
@@ -66,4 +66,10 @@ The main goal is to create a Virtual Machine (VM) in Azure with a minimal contai
 4. Containers inside the VM
     * PostgreSQL Container: Stores data securely.
     * Nginx Container (Web Server): Serves a static web page.
+    * Keycloak Container: Authentication server, integrated with PostgreSQL
 
+Access:
+
+DNS: https://hylastixproject.ddns.net
+User: admin
+Password: admin123
