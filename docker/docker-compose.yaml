@@ -39,26 +39,6 @@ services:
     ports:
       - "8080:8080"
 
-#  oauth2-proxy:
-#    image: quay.io/oauth2-proxy/oauth2-proxy:v7.6.0
-#    container_name: oauth2-proxy
-#    restart: unless-stopped
-#    environment:
-#      OAUTH2_PROXY_PROVIDER: keycloak-oidc
-#      OAUTH2_PROXY_CLIENT_ID: static-app
-#      OAUTH2_PROXY_CLIENT_SECRET: your-client-secret
-#      OAUTH2_PROXY_COOKIE_SECRET: "a-32-byte-random-string-base64"
-#      OAUTH2_PROXY_COOKIE_SECURE: "false"
-#      OAUTH2_PROXY_EMAIL_DOMAINS: "*"
-#      OAUTH2_PROXY_OIDC_ISSUER_URL: http://keycloak:8080/keycloak/realms/myrealm
-#      OAUTH2_PROXY_REDIRECT_URL: http://localhost/oauth2/callback
-#      OAUTH2_PROXY_UPSTREAMS: "file:///dev/null"
-#    ports:
-#      - "4180:4180"
-#    depends_on:
-#      - keycloak
-#    networks:
-#      - keycloak-net
 
   nginx:
     image: nginx:alpine
