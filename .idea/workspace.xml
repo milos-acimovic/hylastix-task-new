@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Edit config">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db1e9ab1-1487-4b30-9930-aa7dcdbda43b" name="Changes" comment="Add keycloak in docs">
       <change beforePath="$PROJECT_DIR$/documentation/documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/documentation.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +41,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756047216769</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Final">
-      <option name="closed" value="true" />
-      <created>1756467272033</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1756467272033</updated>
     </task>
     <task id="LOCAL-00034" summary="Edit">
       <option name="closed" value="true" />
@@ -435,11 +426,18 @@
       <option name="project" value="LOCAL" />
       <updated>1756898872021</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Add keycloak in docs">
+      <option name="closed" value="true" />
+      <created>1756900005904</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1756900005904</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dummy commit" />
     <MESSAGE value="Dummy commit - Fix" />
     <MESSAGE value="Final" />
     <MESSAGE value="Edit" />
@@ -464,6 +462,7 @@
     <MESSAGE value="Revert" />
     <MESSAGE value="Edit config - Revert" />
     <MESSAGE value="Edit config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit config" />
+    <MESSAGE value="Add keycloak in docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add keycloak in docs" />
   </component>
 </project>

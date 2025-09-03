@@ -18,7 +18,7 @@ The main goal is to create a Virtual Machine (VM) in Azure with a minimal contai
            +--------------------------+
            |      Public Internet     |
            |--------------------------|
-           |    Ports: 22, 80, 8080   |
+           |    Ports: 22, 80, 443    |
            +-----------+--------------+
                        |
                        v
@@ -71,5 +71,7 @@ The main goal is to create a Virtual Machine (VM) in Azure with a minimal contai
 Access:
 
 DNS: https://hylastixproject.ddns.net
+
 User: admin
+
 Password: admin123
